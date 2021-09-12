@@ -14,24 +14,50 @@
     </script>
 <style>
 #active{
-  color: black;
+  color: purple;
 }
 a{
-    color: green;
+    color: black;
     text-decoration: none;
    }
 strong{
     color: orange;
     }
+    h1{
+      font-size: 70px;
+      text-align: center;
+      border-bottom:5px solid purple;
+      margin:0;
+      padding:15px;
+    }
+    ol{
+      font-size: 20px;
+      border-right:5px solid purple;
+      width:200px;
+      margin:0;
+      padding:30px;
+    }
+    body{
+      margin:0;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 300px 1fr;
+    }
+    #grid ol{
+      padding-left: 45px
+    }
   </style>
   </head>
   <body>
 <h1><a href="index.html">도예</a></h1>
+<div id="grid">
     <ol>
       <li><a href="1.html">상세</a></li>
       <li><a href="2.html">역사</a></li>
       <li><a href="3.html" style="font-size:30px;"id="active">고대, 도기의 발전</a></li>
     </ol>
+    <div>
 <h2><a href="https://namu.wiki/w/%EB%8F%84%EC%9E%90%EA%B8%B0" target="_blank" title="나무위키">고대, 도기의 발전</a></h2>
 
 <p>도자기는 <strong>문명이 시작되기 이전</strong>부터 굽던 토기가 그 기원이다. 인간의 문명이 시작되면서 음식을 저장할 그릇이 필요했다.
@@ -78,5 +104,7 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
 <!--End of Tawk.to Script-->
+</div>
+</div>
   </body>
 </html>
